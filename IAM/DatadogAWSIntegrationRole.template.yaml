@@ -100,7 +100,6 @@ Parameters:
         cloudwatch:Get*,
         cloudwatch:List*,
         ec2:Describe*,
-        ec2:Get*,
         support:*,
         tag:getResources,
         tag:getTagKeys,
