@@ -90,9 +90,9 @@ Parameters:
         sns:Publish,
         sqs:ListQueues,
         support:*,
-        tag:getResources,
-        tag:getTagKeys,
-        tag:getTagValues
+        tag:GetResources,
+        tag:GetTagKeys,
+        tag:GetTagValues
     Type: CommaDelimitedList
   PermissionsMinimum:
     # Delete double quotes(") after copy & paste from doc (#permissions)
@@ -101,9 +101,9 @@ Parameters:
         cloudwatch:List*,
         ec2:Describe*,
         support:*,
-        tag:getResources,
-        tag:getTagKeys,
-        tag:getTagValues
+        tag:GetResources,
+        tag:GetTagKeys,
+        tag:GetTagValues
     Type: CommaDelimitedList
 Conditions:
   Permissions:
