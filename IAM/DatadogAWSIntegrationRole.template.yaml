@@ -128,6 +128,8 @@ Resources:
         Version: '2012-10-17'
       Roles:
       - Ref: DatadogAWSIntegrationRole
+      # When you want to give a specific name
+      #ManagedPolicyName: "DatadogAWSIntegrationRolePolicy"
     Type: AWS::IAM::ManagedPolicy
   DatadogAWSIntegrationRole:
     Properties:
@@ -144,4 +146,6 @@ Resources:
             AWS:
               Fn::Sub: arn:aws:iam::${DatadogAccountID}:root
         Version: '2012-10-17'
+      # When you want to give a specific name
+      #RoleName: 'DatadogAWSIntegrationRole'
     Type: AWS::IAM::Role
