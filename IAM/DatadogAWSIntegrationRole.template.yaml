@@ -92,7 +92,9 @@ Parameters:
         sns:List*,
         sns:Publish,
         sqs:ListQueues,
-        support:*,
+        support:DescribeTrustedAdvisorChecks,
+        support:RefreshTrustedAdvisorCheck,
+        support:DescribeTrustedAdvisorCheckResult,
         tag:GetResources,
         tag:GetTagKeys,
         tag:GetTagValues
