@@ -97,7 +97,9 @@ Parameters:
         support:DescribeTrustedAdvisorCheckResult,
         tag:GetResources,
         tag:GetTagKeys,
-        tag:GetTagValues
+        tag:GetTagValues,
+        xray:BatchGetTraces,
+        xray:GetTraceSummaries
     Type: CommaDelimitedList
   PermissionsMinimum:
     # Delete double quotes(") after copy & paste from doc (#permissions)
