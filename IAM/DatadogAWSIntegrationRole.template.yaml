@@ -34,6 +34,7 @@ Parameters:
   PermissionsFull:
     # Delete double quotes(") after copy & paste from doc (#installation)
     Default: >-
+        apigateway:GET,
         autoscaling:Describe*,
         budgets:ViewBudget,
         cloudfront:GetDistributionConfig,
