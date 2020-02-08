@@ -90,6 +90,8 @@ Parameters:
         sns:List*,
         sns:Publish,
         sqs:ListQueues,
+        states:ListStateMachines,
+        states:DescribeStateMachine,
         support:*,
         tag:GetResources,
         tag:GetTagKeys,
