@@ -56,6 +56,7 @@ Parameters:
         elasticache:List*,
         elasticfilesystem:DescribeFileSystems,
         elasticfilesystem:DescribeTags,
+        elasticfilesystem:DescribeAccessPoints,
         elasticloadbalancing:Describe*,
         elasticmapreduce:List*,
         elasticmapreduce:Describe*,
