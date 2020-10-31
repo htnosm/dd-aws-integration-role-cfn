@@ -1,6 +1,9 @@
 # dd-aws-integration-role-cfn
 Datadog AWS Integration IAM Role and Policy cloudformation template
 
+* **Currently, Datadog official CloudFormation template are available.**
+  * **See [AWS integration - Datadog Docs](https://docs.datadoghq.com/integrations/amazon_web_services/)**
+
 ## Reference
 
 - [Datadog AWS Integration](https://docs.datadoghq.com/integrations/amazon_web_services/#installation)
