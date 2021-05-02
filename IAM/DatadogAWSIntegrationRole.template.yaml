@@ -80,6 +80,7 @@ Parameters:
         logs:FilterLogEvents,
         logs:PutSubscriptionFilter,
         logs:TestMetricFilter,
+        organizations:DescribeOrganization,
         rds:Describe*,
         rds:List*,
         redshift:DescribeClusters,
